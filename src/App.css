@@ -32,7 +32,7 @@ html {
 
 .header {
   background-color: #fcf1f4;
-  height: 100vh;
+  padding-bottom: 10rem;
 }
 .navbar {
   display: flex;
@@ -170,9 +170,7 @@ html {
 .sugarBg {
   display: flex;
   align-items: center;
-
 }
-
 
 .sugarPartText h2 {
   color: #150101;
@@ -195,9 +193,9 @@ html {
   max-width: 44.2rem;
 }
 
-.sugarPartText .btn{
+.sugarPartText .btn {
   margin-top: 3.5rem;
 }
-.sugarPartImg{
-  transform: translateX(30rem);
+.sugarPartImg {
+  transform: translateX(7rem);
 }

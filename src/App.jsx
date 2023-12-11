@@ -53,7 +53,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div id="pricing " className="container">
+      <div id="pricing" className="container">
         <div className="cards">
           <div className="card">
             <img src="../public/images/pictureSvg/car.svg" alt="" />
