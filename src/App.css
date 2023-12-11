@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Hind+Madurai:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #fcf1f4;
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.linksBtn {
+  display: flex;
+  align-items: center;
+  gap: 17rem;
+}
+
+.nav-links ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 4rem;
+}
+
+.nav-links ul li a {
+  color: #150101;
+  font-family: Roboto;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: normal;
+  transition: all ease-in-out 0.3s;
+}
+
+.nav-links ul li a:hover {
+  color: #d23166;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 1.4rem 5rem;
+  border-radius: 5px;
+  background: #d23166;
+  color: #fafafa;
+  font-family: Hind Madurai;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#home {
+  display: flex;
+}
+
+.hero-text {
+  margin-top: 15rem;
+}
+.hero-text h5 {
+  color: #0f0101;
+  font-family: Roboto, sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+}
+
+.hero-text h1 {
+  color: #0f0101;
+  font-family: Fredoka;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 120.5%;
+  margin-top: 0.6rem;
+  max-width: 200rem;
+  opacity: 0.9;
+}
+
+.hero-text p {
+  color: #0f0101;
+  font-family: Hind Madurai, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 27px;
+  max-width: 52rem;
+  margin-top: 3.5rem;
+  opacity: 0.6;
+}
+
+.hero-text .btn {
+  margin-top: 5rem;
+}
+
+.hero-img {
+  transform: translate(5rem, 2.5rem);
+}
+.hero-img img {
+  width: 105rem;
+}
+.hero-text span {
+  color: #d23166;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.cards .card {
+  text-align: center;
+}
+
+.cards .card h3 {
+  color: #000;
+  font-family: Hind Madurai, sans-serif;
+  font-size: 2rem;
+  margin-top: 2.4rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.cards .card p {
+  color: #000;
+  text-align: center;
+  font-family: Hind Madurai;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-top: 0.9rem;
+  opacity: 0.6;
+  max-width: 19rem;
+}
+
+.sugarPart {
+  background-color: #f8edf0;
+}
+
+.sugarBg {
+  display: flex;
+  align-items: center;
+
+}
+
+
+.sugarPartText h2 {
+  color: #150101;
+  font-family: Hind Madurai, sans-serif;
+  font-size: 4.42rem;
+  font-weight: 600;
+  line-height: 110.5%;
+  max-width: 40rem;
+}
+
+.sugarPartText p {
+  color: #150101;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 1.6rem;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.6;
+  max-width: 44.2rem;
+}
+
+.sugarPartText .btn{
+  margin-top: 3.5rem;
+}
+.sugarPartImg{
+  transform: translateX(30rem);
+}
