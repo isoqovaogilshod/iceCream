@@ -1,0 +1,75 @@
+.simpleBg {
+  background: #f8edf0;
+  padding-top: 5rem;
+}
+.simple {
+  display: flex;
+  gap: 20rem;
+}
+
+.simple-left img {
+  transform: translateY(4rem);
+}
+
+.simple-right{
+    margin-top: 6rem;
+}
+.simple-right h2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.simple-right p {
+  color: #0f0101;
+  font-family: Roboto;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 60.7rem;
+  margin-top: 2rem;
+  letter-spacing: 0.18px;
+}
+
+.threePart {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+  margin-top: 2rem;
+}
+
+.threePart p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: normal;
+}
+.threePart .part {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.threePart .part .img {
+  background-color: #ffffff;
+  padding: 0.9rem 1rem;
+  border-radius: 5px;
+  margin-top: 1.2rem;
+}
+
+.threePart .part .img img {
+  width: 2.5rem;
+  height: 2.7rem;
+}
+
+.brands {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+

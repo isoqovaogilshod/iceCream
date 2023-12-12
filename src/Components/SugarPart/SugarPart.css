@@ -1,0 +1,36 @@
+.sugarPart {
+  background-color: #f8edf0;
+}
+
+.sugarBg {
+  display: flex;
+  align-items: center;
+}
+
+.sugarPartText h2 {
+  color: #150101;
+  font-family: Hind Madurai, sans-serif;
+  font-size: 4.42rem;
+  font-weight: 600;
+  line-height: 110.5%;
+  max-width: 40rem;
+}
+
+.sugarPartText p {
+  color: #150101;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 1.6rem;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.6;
+  max-width: 44.2rem;
+}
+
+.sugarPartText .btn {
+  margin-top: 3.5rem;
+}
+.sugarPartImg {
+  transform: translateX(10rem);
+}

@@ -1,0 +1,42 @@
+.Help {
+  padding-top: 19.1rem;
+  padding-bottom: 19.1rem;
+}
+
+.Help h2 {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 4.4rem;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 52.2rem;
+}
+
+.send {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  width: 63rem;
+  border-radius: 5px;
+  flex-shrink: 0;
+  background: #f8f6f6;
+  margin-top: 2.8rem;
+}
+
+.send input {
+  outline: none;
+  border: none;
+  max-width: 100%;
+  width: 50.3rem;
+  padding: 2.9rem;
+  background: #f8f6f6;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.send button{
+    font-size: 2rem;
+}

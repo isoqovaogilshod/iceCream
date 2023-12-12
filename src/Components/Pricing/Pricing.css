@@ -1,0 +1,37 @@
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.cards .card {
+  text-align: center;
+  padding: 3rem;
+}
+
+.cards .card:hover {
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 20px 20px 50px 50px rgba(0, 0, 0, 0.03);
+}
+.cards .card h3 {
+  color: #000;
+  font-family: Hind Madurai, sans-serif;
+  font-size: 2rem;
+  margin-top: 2.4rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.cards .card p {
+  color: #000;
+  text-align: center;
+  font-family: Hind Madurai;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-top: 0.9rem;
+  opacity: 0.6;
+  max-width: 19rem;
+}

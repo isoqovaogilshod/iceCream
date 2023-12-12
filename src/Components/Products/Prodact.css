@@ -1,0 +1,194 @@
+#product {
+  padding-bottom: 10rem;
+}
+#product h2 {
+  color: #150101;
+  font-family: Hind Madurai;
+  font-size: 44.2px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  padding-top: 13.7rem;
+}
+
+.links ul {
+  display: flex;
+  justify-content: center;
+  gap: 3.9rem;
+  margin-top: 6.4rem;
+}
+
+.links ul li a {
+  position: relative;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  opacity: 0.6;
+  line-height: normal;
+  padding-bottom: 0.6rem;
+}
+
+.links ul li a:hover {
+  opacity: 1;
+}
+.links ul li a::after {
+  position: absolute;
+  content: "";
+  height: 5px;
+  background: #d64374;
+  width: 0;
+  left: 50%;
+  bottom: -6px;
+  transition: all 0.25s;
+}
+
+.links ul li a:hover::after {
+  width: 100%;
+  left: 0%;
+}
+
+.about .part {
+  display: flex;
+  margin-top: 4.6rem;
+  align-items: center;
+  gap: 13.7rem;
+}
+
+.about .part h3 {
+  color: #000;
+  font-family: Hind Madurai;
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about .part p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.7;
+  max-width: 454px;
+  margin-top: 1.1rem;
+}
+.cost {
+  display: flex;
+  align-items: center;
+  margin-top: 2.6rem;
+  gap: 0.5rem;
+}
+.cost h4 {
+  color: #000;
+  font-family: Hind Madurai;
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.cost span {
+  color: #000;
+  text-align: right;
+  font-family: Hind Madurai;
+  opacity: 0.7;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: line-through;
+  line-height: normal;
+}
+
+.about .part:nth-child(2) {
+  display: flex;
+  text-align: right;
+  flex-direction: row-reverse;
+}
+.about .part:nth-child(2) p {
+  max-width: 444px;
+}
+.about .part:nth-child(2) .cost {
+  display: flex;
+  justify-content: end;
+}
+
+.about button {
+  margin-top: 0.9rem;
+}
+
+#testimonals {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 22.4rem;
+}
+#testimonals .right img {
+  width: 60rem;
+}
+
+#testimonals .user {
+  display: flex;
+  align-items: center;
+  gap: 2.1rem;
+}
+
+#testimonals .user h3 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+#testimonals .user span {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.2rem;
+  margin-top: 0.6rem;
+  font-weight: 500;
+  opacity: 0.7;
+}
+.thanks {
+  margin-top: 5rem;
+  max-width: 33.3rem;
+}
+
+.thanks .thanksText {
+  color: #000;
+  font-family: Roboto;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  opacity: 0.7;
+  line-height: 24px;
+}
+
+.thanks .white {
+  color: #fff;
+}
+
+.usersPart {
+  margin-top: 5.6rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.usersPart img {
+  border-radius: 50%;
+}
+.usersPart .adele {
+  border-radius: 57.812px;
+  border: 1px solid #d64374;
+  background: url(<path-to-image>),
+    lightgray -32.18px -1.056px / 188.2% 125.529% no-repeat;
+}
+
+.little {
+  max-width: 7rem;
+}
